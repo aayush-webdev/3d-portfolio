@@ -3,6 +3,7 @@ import HeroExperience from '../components/HeroModels/HeroExperience.jsx'
 import { words } from '../constants/index.js'
 import { gsap } from 'gsap';
 import { useGSAP }  from '@gsap/react' ;  
+import Counter from '../components/Counter.jsx';
 const Hero = () => {
 
     useGSAP(() => {
@@ -66,6 +67,7 @@ const Hero = () => {
 
     </div>
     
+    <Counter/>
 
    </section>
   )
